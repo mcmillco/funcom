@@ -101,8 +101,7 @@ if __name__ == '__main__':
     init_tf(gpu)
 
     prep('loading tokenizers... ')
-    tdatstok = pickle.load(open('%s/tdats.tok' % (dataprep), 'rb'), encoding='UTF-8')
-    sdatstok = pickle.load(open('%s/sdats.tok' % (dataprep), 'rb'), encoding='UTF-8')
+    tdatstok = pickle.load(open('%s/dats.tok' % (dataprep), 'rb'), encoding='UTF-8')
     comstok = pickle.load(open('%s/coms.tok' % (dataprep), 'rb'), encoding='UTF-8')
     smltok = pickle.load(open('%s/smls.tok' % (dataprep), 'rb'), encoding='UTF-8')
     drop()
@@ -134,7 +133,6 @@ if __name__ == '__main__':
     config['smlvocabsize'] = smlvocabsize
 
     config['tdatlen'] = len(list(seqdata['dttrain'].values())[0])
-    config['sdatlen'] = seqdata['config']['sdatlen']
     config['comlen'] = len(list(seqdata['ctrain'].values())[0])
     config['smllen'] = len(list(seqdata['strain'].values())[0])
     
