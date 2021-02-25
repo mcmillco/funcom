@@ -24,6 +24,14 @@ returns the number of residues in the sequence - get number of interacting resid
 returns true if the network is found - return true if passed inet address match a network which was used  
 log status message - log the status of the current message as info  
 
+## Update Notice
+
+This repository is archival for the ICSE'19 paper mentioned above.  It is a good place to get started, but you may also want to look at our newer projects:
+
+https://github.com/Attn-to-FC/Attn-to-FC
+
+https://github.com/acleclair/ICPC2020_GNN
+
 ## USAGE
 
 ### Step 0: Dependencies
