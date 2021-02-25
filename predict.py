@@ -139,7 +139,7 @@ if __name__ == '__main__':
     import tokenizer
 
     prep('loading tokenizers... ')
-    tdatstok = pickle.load(open('%s/tdats.tok' % (dataprep), 'rb'), encoding='UTF-8')
+    tdatstok = pickle.load(open('%s/dats.tok' % (dataprep), 'rb'), encoding='UTF-8')
     comstok = pickle.load(open('%s/coms.tok' % (dataprep), 'rb'), encoding='UTF-8')
     smltok = pickle.load(open('%s/smls.tok' % (dataprep), 'rb'), encoding='UTF-8')
     drop()
