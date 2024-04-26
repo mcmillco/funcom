@@ -28,6 +28,8 @@ log status message - log the status of the current message as info
 
 This repository is archival for the ICSE'19 paper mentioned above.  It is a good place to get started, but you may also want to look at our newer projects:
 
+https://github.com/aakashba/callcon-public
+
 https://github.com/Attn-to-FC/Attn-to-FC
 
 https://github.com/acleclair/ICPC2020_GNN
@@ -44,7 +46,7 @@ We provide a dataset of 2.1m Java methods and method comments, already cleaned a
 
 https://s3.us-east-2.amazonaws.com/icse2018/index.html  
 
-(The raw data is available here, if interested: http://leclair.tech/data/funcom/)  
+(Note: this paper is now several years old.  Please see an update of data here: https://github.com/aakashba/callcon-public)  
 
 Extract the dataset to a directory (/scratch/ is the assumed default) so that you have a directory structure:  
 /scratch/funcom/data/standard/dataset.pkl  
